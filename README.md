@@ -34,6 +34,8 @@
 
 - Visible lines represent all network connections.
 
+  - ![Udacity_Diagram_1](Udacity_Diagram_1.png)
+
 #### 1.2. Criteria
 
 - Develop a schematic for a Serverless AWS infrastructure application development project.
