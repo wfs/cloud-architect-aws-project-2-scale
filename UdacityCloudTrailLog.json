@@ -1,0 +1,453 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:55Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "GetInsightSelectors",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "errorCode": "InsightNotEnabledException",
+      "errorMessage": "Trail arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail does not have Insights enabled. Edit the trail settings to enable Insights, and then try the operation again.",
+      "requestParameters": {
+        "trailName": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail"
+      },
+      "responseElements": null,
+      "requestID": "8d19d34e-9412-4402-a8b1-8fd9793b0e29",
+      "eventID": "0c47de5f-ac62-439f-9d44-d29d897e2f7a",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:55Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "ListTags",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "resourceIdList": [
+          "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail"
+        ]
+      },
+      "responseElements": null,
+      "requestID": "93b025d0-b93a-4846-aa6d-fea4a387bc5c",
+      "eventID": "f0a37e69-5590-45e2-9bbc-3454a5a9adb6",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:39Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "DescribeTrails",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": { "trailNameList": [], "includeShadowTrails": true },
+      "responseElements": null,
+      "requestID": "baa3a894-d92f-477b-a029-0f4ac8ea719b",
+      "eventID": "88ad6306-6f2b-4e2a-a544-674ed3a2b3d0",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:39Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "StartLogging",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": { "name": "Udacity_Trail" },
+      "responseElements": null,
+      "requestID": "e72852ee-b5d2-42fb-84ec-b1381bc8ecf0",
+      "eventID": "7f5ba981-9cc6-4318-942e-1c1ff2f8a49d",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:38Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "PutEventSelectors",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "trailName": "Udacity_Trail",
+        "eventSelectors": [
+          {
+            "readWriteType": "All",
+            "includeManagementEvents": true,
+            "dataResources": [
+              { "type": "AWS::S3::Object", "values": ["arn:aws:s3"] },
+              { "type": "AWS::Lambda::Function", "values": ["arn:aws:lambda"] }
+            ],
+            "excludeManagementEventSources": []
+          }
+        ]
+      },
+      "responseElements": {
+        "trailARN": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail",
+        "eventSelectors": [
+          {
+            "readWriteType": "All",
+            "includeManagementEvents": true,
+            "dataResources": [
+              { "type": "AWS::S3::Object", "values": ["arn:aws:s3"] },
+              { "type": "AWS::Lambda::Function", "values": ["arn:aws:lambda"] }
+            ],
+            "excludeManagementEventSources": []
+          }
+        ]
+      },
+      "requestID": "c9819d42-bd52-4e15-8d4f-0c4431abadd6",
+      "eventID": "bd08c78c-ef62-4455-9d57-b687b4ef9d69",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:38Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "CreateTrail",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "name": "Udacity_Trail",
+        "s3BucketName": "aws-cloudtrail-logs-257351338177-8358fda2",
+        "s3KeyPrefix": "",
+        "includeGlobalServiceEvents": true,
+        "isMultiRegionTrail": true,
+        "enableLogFileValidation": false,
+        "kmsKeyId": "",
+        "isOrganizationTrail": false
+      },
+      "responseElements": {
+        "name": "Udacity_Trail",
+        "s3BucketName": "aws-cloudtrail-logs-257351338177-8358fda2",
+        "s3KeyPrefix": "",
+        "includeGlobalServiceEvents": true,
+        "isMultiRegionTrail": true,
+        "trailARN": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail",
+        "logFileValidationEnabled": false,
+        "isOrganizationTrail": false
+      },
+      "requestID": "d751f2f4-a4bb-4d9c-8cc1-a225dd838dfe",
+      "eventID": "1e5d861d-0d10-4c8d-8b06-16a55154afe2",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:55Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "GetTrailStatus",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "name": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail"
+      },
+      "responseElements": null,
+      "requestID": "65f45c44-c4ae-487a-8855-2d8c19a154ab",
+      "eventID": "e9fb9b20-c503-4887-8937-7fb4924ed69a",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:55Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "DescribeTrails",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": { "trailNameList": [], "includeShadowTrails": true },
+      "responseElements": null,
+      "requestID": "6002ce4d-ed7c-4e96-a046-1bf6edab6c10",
+      "eventID": "00ff8cea-e958-489b-8ecc-a4867eba419c",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:38Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "PutInsightSelectors",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "trailName": "Udacity_Trail",
+        "insightSelectors": []
+      },
+      "responseElements": {
+        "trailARN": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail",
+        "insightSelectors": []
+      },
+      "requestID": "b228cdff-fe5e-41ed-865f-4b789074caa6",
+      "eventID": "0d31c139-3c36-43fe-9ea1-35fda6b7f1b8",
+      "readOnly": false,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:39Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "GetTrailStatus",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "name": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/management-events"
+      },
+      "responseElements": null,
+      "requestID": "6ebef582-fade-4f0d-a6f5-044056f3de3a",
+      "eventID": "9ee4670f-63de-4bb1-9fdc-944062e73c21",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDATX22VZDA5DCTXBILF",
+        "arn": "arn:aws:iam::257351338177:user/CloudTrail",
+        "accountId": "257351338177",
+        "accessKeyId": "ASIATX22VZDA6JXTWMOG",
+        "userName": "CloudTrail",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2021-07-17T07:45:30Z"
+          }
+        }
+      },
+      "eventTime": "2021-07-17T08:07:39Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "GetTrailStatus",
+      "awsRegion": "ap-southeast-2",
+      "sourceIPAddress": "101.173.222.145",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "name": "arn:aws:cloudtrail:ap-southeast-2:257351338177:trail/Udacity_Trail"
+      },
+      "responseElements": null,
+      "requestID": "a58226f8-728f-4757-b2d2-ab324392af17",
+      "eventID": "88fc1225-bfd1-4a84-80de-4384c1b7d7eb",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "managementEvent": true,
+      "eventCategory": "Management",
+      "recipientAccountId": "257351338177",
+      "sessionCredentialFromConsole": "true"
+    }
+  ]
+}

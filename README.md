@@ -72,28 +72,45 @@ In order to complete this task, please ensure your IAM users have been granted a
 - Require at least one non-alphanumeric character.
 - Submit a screenshot of the Password Policy from the IAM Account settings page. Name the screenshot udacity_password_policy.png or udacity_password_policy.jpg.
 
+  - ![udacity_password_policy](udacity_password_policy.png)
+
 AWS Password Policy
 
 - Example AWS Password Policy
 
-  1.3.2. Create a Group named CloudTrailAdmins and give it the two CloudTrail privileges.
+  - 1.3.2. Create a Group named CloudTrailAdmins and give it the two CloudTrail privileges.
 
-  1.3.3. Create a Group named Reviewers and give it the Billing privilege.
+  - ![CloudTrailAdmins_group_1](CloudTrailAdmins_group_1.png)
+  - ![CloudTrailAdmins_group_2](CloudTrailAdmins_group_2.png)
 
-  1.3.4. Configure a user named CloudTrail and a user named Accountant. Give the users AWS Console access and assign them a password that conforms to your password policy. Require them to change their password when they login.
+  - 1.3.3. Create a Group named Reviewers and give it the Billing privilege.
 
-  1.3.5. Assign CloudTrail to the CloudTrailAdmins group. Assign Accountant to the Reviewers group .
+  - ![Reviewers_group_1](Reviewers_group_1.png)
+  - ![Reviewers_group_2](Reviewers_group_2.png)
 
-  1.3.6. Test both user accounts by logging into the AWS console as the users CloudTrail and Accountant after changing their passwords on login. Login using your numerical AccountID
+  - 1.3.4. Configure a user named CloudTrail and a user named Accountant. Give the users AWS Console access and assign them a password that conforms to your password policy. Require them to change their password when they login.
 
-AWS Sign In
-1.3.7. While logged-in as the user CloudTrail, go to the CloudTrail page and create a trail named Udacity_Trail. Enable logging on all Read/Writes Management Events and S3 and Lambda events Data Events. Create a new S3 Bucket to store the CloudTrail log. There is no need for advanced configuration.
+  - 1.3.5. Assign CloudTrail to the CloudTrailAdmins group. Assign Accountant to the Reviewers group.
 
-1.3.8. Download the portion of the CloudTrail log that shows the entire Task 3 timeframe and save it as UdacityCloudTrailLog.csv.
+  - ![CloudTrail_user](CloudTrail_user.png)
+  - ![Accountant_user](Accountant_user.png)
 
-1.3.9. Before Logging off, return to the CloudTrail configuration page. Disable S3 logging.
-Are you sure you want to stop logging?
-Are you sure you want to stop logging?
+  - 1.3.6. Test both user accounts by logging into the AWS console as the users CloudTrail and Accountant after changing their passwords on login. Login using your numerical AccountID
+
+  - ![CloudTrail_console_logged_in](CloudTrail_console_logged_in.png)
+  - ![Accountant_console_logged_in](Accountant_console_logged_in.png)
+
+  - 1.3.7. While logged-in as the user CloudTrail, go to the CloudTrail page and create a trail named Udacity_Trail. Enable logging on all Read/Writes Management Events and S3 and Lambda events Data Events. Create a new S3 Bucket to store the CloudTrail log. There is no need for advanced configuration.
+
+    - ![Udacity_Trail](Udacity_Trail.png)
+
+  - 1.3.8. Download the portion of the CloudTrail log that shows the entire Task 3 timeframe and save it as UdacityCloudTrailLog.csv.
+
+    - [UdacityCloudTrailLog](UdacityCloudTrailLog.json)
+
+  - 1.3.9. Before Logging off, return to the CloudTrail configuration page. Disable S3 logging.
+
+    - ![Udacity_Trail_logging_to_s3_stopped](Udacity_Trail_logging_to_s3_stopped.png)
 
 #### 1.4. [OPTIONAL ]Task 4: Set up Cost Monitoring
 
