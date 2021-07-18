@@ -120,8 +120,22 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
 1.4.2. Set up a Billing alarm with a $5 threshold
 
-1.4.3. Set up notification so that you get an email alert when the alarm is triggered.
-Save a screenshot of the CloudWatch Alarms page showing the new alarm with a green OK status as CloudWatch_alarm.png or CloudWatch_alarm.jpg
+- 1.4.2.1. Create budget estimated cost SNS Topic in us-east-1 region aka 'global' billing region.
+
+  - ![sns_topic_budget](sns_topic_budget.png)
+
+- 1.4.2.2. Subscribe to budget SNS topic.
+
+  - ![sns_subscribe_to_budget_topic_1](sns_subscribe_to_budget_topic_1.png)
+  - ![sns_subscribe_to_budget_topic_2](sns_subscribe_to_budget_topic_2.png)
+
+- 1.4.3. Set up notification so that you get an email alert when the alarm is triggered.
+  Save a screenshot of the CloudWatch Alarms page showing the new alarm with a green OK status as CloudWatch_alarm.png or CloudWatch_alarm.jpg
+
+  - 1.4.1.3. Create CloudWatch billing alarm.
+
+  - ![CloudWatch_alarm_1](CloudWatch_alarm_1.png)
+  - ![CloudWatch_alarm_2](CloudWatch_alarm_2.png)
 
 ---
 
