@@ -149,6 +149,8 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
 - The monthly cost is between $8,000-10,000 using the [AWS Pricing Calculator](https://calculator.aws/#/).
 
+  - [Initial_Cost_Estimate](Initial_Cost_Estimate.csv)
+
 #### 2.2. Criteria
 
 - Modify the infrastructure to reduce the monthly cost.

@@ -1,0 +1,13 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,S3 Standard,0,588.8,7065.60,USD,S3 Standard storage (25 TB per month)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,18.77,225.24,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),nat_gateway_estimate,Amazon Virtual Private Cloud (VPC),0,770.13,9241.56,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),vpc_with_4_subnets_estimate,Amazon Virtual Private Cloud (VPC),0,2010.75,24129.00,USD,"Working days per month (22), DT Inbound: Internet (0 TB per month), DT Outbound: Internet (16 TB per month), DT Intra-Region: (0 TB per month), Number of subnet associations (4), Data transfer cost (1443.75)"
+My Estimate,US East (N. Virginia),ec2_2_app_servers_2_web_servers_estimate,Amazon EC2,0,1161.28,13935.36,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances), Storage amount (50 GB), Instance type (m5.xlarge)"
+My Estimate,US East (N. Virginia),rds_mysql_1_main_db,Amazon RDS for MySQL,0,1521.8799999999999,18262.56,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),rds_mysql_1_replica_db,Amazon RDS for MySQL,0,2826.2,33914.40,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Quantity (1), Instance type (db.r5.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (0 TB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
