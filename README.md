@@ -161,7 +161,12 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
 - The monthly cost is $6,500 or below using the [AWS Pricing Calculator](https://calculator.aws/#/).
 
+  - [Reduced_Cost_Estimate](Reduced_Cost_Estimate.csv)
+
+
 - A rationale is provided to explain which services were changed or removed.
+
+  - I reduced the size of both the Main RDS MySQL and the Replica RDS MySQL instances.
 
 #### 2.3. Criteria
 
@@ -173,7 +178,11 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
 - The monthly cost is between $18,000-20,000 using the [AWS Pricing Calculator](https://calculator.aws/#/).
 
+  - [Increased_Cost_Estimate](Increased_Cost_Estimate.csv)
+
 - A rationale is provided to explain which services were changed or removed.
+
+  - I increased the size of both the Main RDS MySQL and the Replica RDS MySQL instances and added ElastiCache to increase the performance of the web applications. 
 
 ---
 
