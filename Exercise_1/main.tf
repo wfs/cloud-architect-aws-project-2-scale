@@ -2,7 +2,7 @@
 # AWS as the cloud provider
 # WARN: need to use environment variables for aws access_key + secret_key
 #       and not commit actual values to github!
-#       - https://learn.hashicorp.com/tutorials/terraform/aws-build?in=terraform/aws-get-started#providers
+#       - https://registry.terraform.io/providers/hashicorp/aws/latest/docs#environment-variables
 provider "aws" {
   access_key = "insert_env_var_here"
   secret_key = "insert_env_var_here"
