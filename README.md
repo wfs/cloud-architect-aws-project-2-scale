@@ -163,7 +163,6 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
   - [Reduced_Cost_Estimate](Reduced_Cost_Estimate.csv)
 
-
 - A rationale is provided to explain which services were changed or removed.
 
   - I reduced the size of both the Main RDS MySQL and the Replica RDS MySQL instances.
@@ -182,7 +181,7 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
 - A rationale is provided to explain which services were changed or removed.
 
-  - I increased the size of both the Main RDS MySQL and the Replica RDS MySQL instances and added ElastiCache to increase the performance of the web applications. 
+  - I increased the size of both the Main RDS MySQL and the Replica RDS MySQL instances and added ElastiCache to increase the performance of the web applications.
 
 ---
 
@@ -212,9 +211,11 @@ Attempt this task only if you are using your personal AWS account. This task wil
 
   - 4 AWS t2.micro EC2 instances named Udacity T2
   - 2 m4.large EC2 instances named "Udacity M4"
+  - ![Terraform_1_1](./Exercise_1/Terraform_1_1.png)
 
 - Updated AWS Console EC2 screenshot Terraform_1_2 shows:
   - 4 AWS t2.micro EC2 instances named "Udacity T2"
+  - ![Terraform_1_2](./Exercise_1/Terraform_1_2.png)
 
 #### 3.2.1. Exercise 2
 
